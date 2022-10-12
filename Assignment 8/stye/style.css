@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    border-bottom: 2px solid #ccc;
+}
+body{
+    background-color: #fff;
+}
+.btn-div{
+    border: 2px solid #ccc;
+    padding: 30px;
+    border-radius: 5px;
+}
+#output{
+    border: 2px solid #ccc;
+    height: 40px;
+    padding: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .btn-div{
+        flex-direction: column;
+    }
+  }

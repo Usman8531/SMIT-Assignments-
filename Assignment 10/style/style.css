@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+.h1,h1, .h2, h2, .h3,h3,h5,h3,h4,.p,a{
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    word-spacing: 10px;
+}
+.navbar{
+    background-color: #1d3557;
+}
+.btn{
+    color: #fff;
+    border: 2px solid white;
+}
+.btn:hover{
+    background-color:#1d3557 ;
+    border: 1px solid whitesmoke;
+}
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8,#btn9{
+    margin: 3px;
+    transition: all 0.5s;
+}
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8,#btn9:hover{
+    padding-bottom: -10px;
+
+}
+body{
+    background-color: #f0faef;
+    
+}
+.border{
+ border-radius: 10px;
+ border: 2px solid #bfc8c3 !important; 
+ /* border: 2px solid #bfc8c3; */
+}
+.btn1{
+background-color: #bfc8c3;
+border: 1px solid black;
+}
+.btn1:hover{
+    background-color: #000;
+    color: #fff !important;
+}
+footer{
+    background-color: #1d3557;
+    font-family: 'Lobster Two', cursive;
+    color: white;
+}
+.btn1,.btn2{
+    background-color: #1d3557;
+}
+.btn2:hover{
+
+    background-color: #1a4d94af;
+    color: #fff;
+}
